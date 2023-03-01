@@ -1,0 +1,657 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* 
+=======================
+css for page 1
+=======================
+*/
+.pount{
+    opacity: 0.8;
+    color: rgb(6, 119, 119);
+}
+
+.ColorHeader{
+    background: rgb(17,22,17);
+background: radial-gradient(circle, rgba(17,22,17,1) 0%, rgba(9,10,2,1) 31%, rgba(9,1,1,1) 51%, rgba(2,6,14,1) 79%, rgba(0,8,2,1) 100%);
+}
+#page1{
+    width: 100%;
+    height: 100vh;
+    background-image: url(ImageWeb/مشاريعنا/banner1.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+.smallLogo{
+    height: 50px;
+}
+.navbar{
+    z-index: 9999;
+}
+.shadow-page1{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.caption-page1{
+    text-align: center;
+    z-index: 400;
+}
+.caption-page1 h1{
+    color:tan;
+    font-size: 70px;
+    font-weight: 600;
+    z-index: 500;
+}
+.caption-page1 h2{
+    margin: 30px 0 10px 0;
+    font-size: 40px;
+    font-weight: 600;
+}
+.nav-link{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fabc10;
+    font-weight: 900;
+}
+.navbar li a{
+    color: white;
+    margin-left: 20px;
+}
+
+.navbar li a:hover{
+    color: white;
+    border-bottom: 2px solid white;
+}
+.wantechnologyImg{
+    width: 75%;
+    filter: drop-shadow(6px 6px 4px #fabc10);
+}
+
+.caption-page1 h2::after{
+    content: '|';
+    color:tan;
+    animation-name: typing;
+    animation-duration: 14s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes typing {
+    /* security services */
+    /* Security systems */
+    /* Surveillance Cameras */
+     0%{content: 's|';}
+     1%{content: 'se|';}
+     2%{content: 'sec|';}
+     3%{content: 'secu|';}
+     4%{content: 'secur|';}
+     5%{content: 'securi|';}
+     6%{content: 'securit|';}
+     7%{content: 'security|';}
+     8%{content: 'security |';}
+     9%{content: 'security s|';}
+    10%{content: 'security se|';}
+    11%{content: 'security ser|';}
+    13%{content: 'security serv|';}
+    14%{content: 'security servi|';}
+    15%{content: 'security servic|';}
+    16%{content: 'security service|';}
+    17%{content: 'security services|';}
+    18%{content: 'security service|';}
+    19%{content: 'security servic|';}
+    20%{content: 'security servi|';}
+    21%{content: 'security serv|';}
+    22%{content: 'security ser|';}
+    23%{content: 'security se|';}
+    24%{content: 'security s|';}
+    25%{content: 'security sy|';}
+    26%{content: 'security sys|';}
+    27%{content: 'security syst|';}
+    28%{content: 'security syste|';}
+    29%{content: 'security system|';}
+    30%{content: 'security systems|';}
+    31%{content: 'security system|';}
+    32%{content: 'security syste|';}
+    33%{content: 'security syst|';}
+    34%{content: 'security sys|';}
+    35%{content: 'security sy|';}
+    36%{content: 'security s|';}
+    37%{content: 'security |';}
+    38%{content: 'security|';}
+    39%{content: 'securit|';}
+    40%{content: 'securi|';}
+    41%{content: 'secur|';}
+    42%{content: 'secu|';}
+    43%{content: 'sec|';}
+    44%{content: 'se|';}
+    /* Surveillance Cameras */
+    45%{content: 's|';}
+    46%{content: 'su|';}
+    47%{content: 'sur|';}
+    48%{content: 'surv|';}
+    49%{content: 'surve|';}
+    50%{content: 'survei|';}
+    51%{content: 'surveil|';}
+    52%{content: 'surveill|';}
+    53%{content: 'surveilla|';}
+    54%{content: 'surveillan|';}
+    55%{content: 'surveillanc|';}
+    56%{content: 'surveillance|';}
+    57%{content: 'surveillance |';}
+    58%{content: 'surveillance c|';}
+    59%{content: 'surveillance ca|';}
+    60%{content: 'surveillance cam|';}
+    61%{content: 'surveillance came|';}
+    62%{content: 'surveillance camer|';}
+    63%{content: 'surveillance camera|';}
+    64%{content: 'surveillance cameras|';}
+    65%{content: 'surveillance camera|';}
+    66%{content: 'surveillance camer|';}
+    67%{content: 'surveillance came|';}
+    68%{content: 'surveillance cam|';}
+    69%{content: 'surveillance ca|';}
+    70%{content: 'surveillance c|';}
+    71%{content: 'surveillance |';}
+    72%{content: 'surveillance|';}
+    73%{content: 'surveillanc|';}
+    74%{content: 'surveillan|';}
+    75%{content: 'surveilla|';}
+    76%{content: 'surveill|';}
+    77%{content: 'surveil|';}
+    78%{content: 'survei|';}
+    79%{content: 'surve|';}
+    80%{content: 'surv|';}
+    81%{content: 'sur|';}
+    82%{content: 'su|';}
+    90%{content: 's|';}
+    100%{content: '|';}
+}
+
+/* 
+=======================
+css for page 2
+=======================
+*/
+
+#page2{
+    width: 100%;
+    padding-bottom: 50px;
+    background-color: #F5F5F5;
+}
+
+.AboutLogo{
+    width: 100%;
+    height: 220px;
+}
+.info2{
+    direction: rtl;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 900;
+}
+.info3{
+    direction: rtl;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    padding: 8px;
+}
+.info span{
+    font-size: 18px;
+    font-weight: 600;
+    direction: rtl;
+}
+
+.info label{
+    padding: 10px 0 0 0;
+}
+
+.img-proile img{
+    border-radius: 5px;
+}
+
+.info{
+    width: 60%;
+}
+
+.profile{
+    display: flex;
+}
+
+.skil{
+    margin-top: 20px;
+}
+
+.skils{
+    margin-top: 30px;
+}
+
+.percentage{
+    width: 100%;
+    height: 12px;
+    background-color: #8fb2c2;
+    margin-top: 10px;
+}
+
+#skil1 , #skil2 , #skil3, #skil4{
+    height: 12px;
+    background-color: #086c85;
+}
+
+#skil1{
+    width: 99%;
+}
+
+#skil2{
+    width: 98%;
+}
+
+#skil3{
+    width: 99%;
+}
+
+#skil4{
+    width: 98%;
+}
+
+.about-me h2{
+    position: relative;
+}
+
+.about-me h2::after{
+    content: '';
+    width:100px;
+    height: 3px;
+    background-color: #0078FF;
+    position: absolute;
+    top: 45px;
+    left: 200px;
+}
+
+.about-me p{
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.caption-page2{
+    width: 100%;
+    padding: 50px 50px 70px 50px;
+    margin-top: 60px;
+    box-shadow: 0 0 1px black;
+    background-color: white;
+    border-bottom: 1px solid rgb(167, 167, 167);
+}
+/* 
+=======================
+carousel
+=======================
+*/
+.AllCarousel{
+    width: 80%;
+
+    margin: auto;
+}
+
+/* 
+=======================
+css for page 3
+=======================
+*/
+
+#page3{
+    width: 100%;
+    background-color: #F5F5F5;
+    padding-bottom: 50px;
+}
+.ItemPage3{
+    height: 300px;
+    border-radius: 50%;
+    transition: all ;
+    transition-duration: 2s;
+	border-radius: 10px;
+}
+  .ItemPage3:hover{
+	transform: scale(1.1);
+  }
+
+.ImgPage3{
+    width: 100%;
+    height: 100px;
+    border-radius: 30%;
+}
+.caption-page{
+    margin: auto;
+    text-align: center;
+}
+
+.caption-page h2{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.caption-page p{
+    position: relative;
+}
+
+.caption-page p::after{
+    content: '';
+    width:150px;
+    height: 5px;
+    background-color: teal;
+    position: absolute;
+    top: 15px;
+    left: 44%;    
+}
+
+.service{
+    border-radius: 35%;
+    background-color: white;
+    margin-top: 50px;
+
+}
+
+.service i{
+    font-size: 5px;
+    padding: 10px;
+    border-radius: 50%;
+    border: 10px solid #0078FF;
+    transition: 0.4s;
+}
+
+.service:hover i{
+    color: white;
+    background-color: #0078FF;
+    border: 10px solid aqua;
+}
+
+/* 
+=======================
+css for page 4
+=======================
+*/
+
+#page4{
+    width: 100%;
+    background-image: url(images/counters-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.caption-page4{
+    width: 100%;
+    padding: 100px 100px 130px 100px;
+    background-color: rgba(0, 103, 221, 0.6);
+}
+
+.degree i{
+    border: 10px solid #CDE1F8;
+    font-size: 1px;
+    padding: 20px;
+}
+
+/* 
+=======================
+css for page 5
+=======================
+*/
+
+#page5{
+    width: 100%;
+    background-color:#F5F5F5;
+    overflow: auto;
+    padding-bottom: 50px;
+}
+
+.caption-page5{
+    margin-top: 60px;
+}
+
+.caption-portfoloio i{
+    top: 10px;
+    right: 25px;
+    font-size: 23px;
+    color: #0078FF;
+    border:2px solid #0078FF ;
+    padding: 6px 8px;
+}
+
+.caption-portfoloio p{
+    font-size: 13px;
+    text-align:right;
+}
+
+.caption-portfoloio p span{
+    color: #0078FF;
+}
+
+.portfoloio{
+    margin-top: 50px;
+}
+
+.portfoloio img{
+    width: 100%;
+    height: 100%;
+    transition: all 1s;
+    position: absolute;
+}
+
+.zoom-img{
+    height: 270px;
+    position: relative;
+    overflow: hidden;
+}
+
+.portfoloio:hover .zoom-img img{
+    transform: scale(1.3);
+}
+
+/* 
+=======================
+css for page 6
+=======================
+*/
+
+#page6{
+    width: 100%;
+    background-image: url(ImageWeb/مشاريعنا/banner1.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+.caption-page6{
+    width: 100%;
+    padding: 150px 10px;
+    background-color: rgba(0, 103, 221, 0.6);
+}
+
+
+.carousel-item p{
+    font-size: 18px;
+    line-height: 30px;
+}
+
+/* 
+=======================
+css for page 7
+=======================
+*/
+
+#page7{
+    width: 100%;
+    background-color:#F5F5F5;
+    overflow: auto;
+    padding-bottom: 100px;
+}
+
+.blog{
+    box-shadow: 0 0 1px black;
+    margin-top: 50px;
+}
+
+.foter-blog img{
+    width: 30px;
+    border-radius: 50%;
+}
+
+.foter-blog{
+    margin-top: 30px;
+    border-top: 1px solid black;
+}
+
+.foter-img span{
+    margin-left: 3px;
+}
+
+.blog-img{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.blog-img h6{
+    position: absolute;
+    top: 95%;
+    padding: 7px 17px;
+    font-size: 11px;
+    border-radius: 5px;
+    color: white;
+    background-color: #0078FF;
+}
+
+.caption-blog h4 , .foter-img span{
+    transition: 0.5s;
+}
+
+.caption-blog h4:hover , .foter-img span:hover {
+    color: #0078FF;
+}
+
+/* 
+=======================
+css for page 8
+=======================
+*/
+
+#page8{
+    width: 100%;
+    background-image: url(images/overlay-bg.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    overflow: auto;
+}
+
+.caption-page8{
+    width: 100%;
+    padding: 130px 0 0 0;
+    background-color: rgba(0, 103, 221, 0.7);
+}
+
+form h2 , .caption-form h2{
+    position: relative;
+}
+
+form h2::after{
+    content: '';
+    width:100px;
+    height: 3px;
+    background-color: #0078FF;
+    position: absolute;
+    top: 45px;
+    left: 0;  
+}
+
+.space{
+    margin-top: 40px;
+}
+
+form textarea{
+    height: 130px;
+}
+
+form input::placeholder{
+    font-size: 14px;
+}
+
+form textarea::placeholder{
+    font-size: 14px;
+}
+
+form button{
+    font-size: 20px;
+    color: white;
+    border-radius: 30px;
+    background-color: #0078FF;
+    transition: 0.4s;
+    border: none;
+}
+
+form button:hover{
+    border: 4px solid #CDE1F8;
+}
+
+.btnn{
+    text-align: center;
+}
+
+.btnn button a{
+    text-decoration: none;
+    color: white;
+}
+
+.caption-form h2::after{
+    content: '';
+    width:100px;
+    height: 3px;
+    background-color: #0078FF;
+    position: absolute;
+    top: 45px;
+    left: 0; 
+}
+
+.caption-form p{
+    font-size: 20px;
+    margin-top: 45px;
+}
+
+.icons i{
+    color: #0078FF;
+}
+
+.icons span{
+    margin-left: 15px;
+}
+
+.media i{
+    font-size: 20px;
+    padding: 8px 8px;
+    border: 3px solid #0078FF;
+    transition: 0.4s;
+}
+.MapLoc{
+	width: 62%;
+	height: 120px;
+	border-radius: 5px;
+  }
+.media i:hover{
+    color: white;
+    background-color: #0078FF;
+    border: 3px solid #CDE1F8;
+}
+
+footer{
+    background-color: rgba(0, 103, 221, 0.7);
+}
+
+
+.box{
+    box-shadow: 0 0 10px rgb(174, 174, 174);
+}
